@@ -1,8 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AssignCookies.Domain", "AssignCookies.Domain\AssignCookies.Domain.fsproj", "{52514B9E-30AF-433D-9798-65F3EEB5F6F2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AssignCookies.Domain.Test", "AssignCookies.Domain.Test\AssignCookies.Domain.Test.fsproj", "{E0080903-6B88-4E9E-8B08-1116630BD678}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0080903-6B88-4E9E-8B08-1116630BD678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0080903-6B88-4E9E-8B08-1116630BD678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0080903-6B88-4E9E-8B08-1116630BD678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0080903-6B88-4E9E-8B08-1116630BD678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
