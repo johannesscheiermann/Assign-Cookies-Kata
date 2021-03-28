@@ -27,6 +27,7 @@
       <Compile Include="Types\CookieSizes.Test.fs" />
       <Compile Include="Types\GreedFactor.Test.fs" />
       <Compile Include="Types\GreedFactors.Test.fs" />
+      <Compile Include="Implementation.Test.fs" />
     </ItemGroup>
 
     <ItemGroup>
